@@ -1,0 +1,81 @@
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo__content {
+    border-radius: 59px;
+    background-color: #f4f6f5;
+
+    display: flex;
+    column-gap: 24px;
+
+    padding-top: 68px;
+    padding-left: 120px;
+}
+
+.hightlight {
+    position: relative;
+    display: inline-block;
+}
+
+.hightlight span {
+    position: relative;
+}
+
+.hightlight::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    bottom: 10px;
+    left: -30px;
+    right: -180px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+.hightlight--yellow::before {
+    background-color: var(--yellow);
+    right: -100px;
+}
+
+.promo__title {
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.promo__desc {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -1.6px;
+    margin-bottom: 32px;
+}
+
+.promo__btn-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 34px;
+}
+
+.promo__btn-wrapper::before {
+    content: '';
+    display: inline-block;
+    width: 190px;
+    height: 32px;
+    background-image: url('./../../img/icons/decor-yellow.svg');
+}
+
+.promo__btn {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -1.5px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 18px 40px;
+}

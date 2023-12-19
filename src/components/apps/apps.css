@@ -1,0 +1,33 @@
+.apps__content {
+    margin: 0 auto;
+    margin-top: 200px;
+    max-width: 1483px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apps__desc {
+    padding-top: 200px;
+    max-width: 515px;
+}
+
+.apps__header {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 2.88px;
+    margin-bottom: 41px;
+}
+
+.apps__text {
+    color: #7c7c7c;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.46;
+    letter-spacing: -0.96px;
+}
+.apps__btn {
+    margin-top: 65px;
+    display: flex;
+    column-gap: 19px;
+}

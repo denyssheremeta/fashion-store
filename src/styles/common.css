@@ -1,0 +1,32 @@
+:root {
+    --textColor: #000;
+    --yellow: #ebd96b;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+
+.container {
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.title-2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 2.88px;
+}
+
+.title-2::after {
+    content: '';
+    position: absolute;
+    background-image: url('./../img/icons/decor-yellow.svg');
+    height: 32px;
+    width: 192px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}

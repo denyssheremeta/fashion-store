@@ -1,0 +1,14 @@
+.young__header .title-2 {
+    display: inline-block;
+    position: relative;
+}  
+
+.young__header {
+    margin-bottom: 118px;
+}
+
+.young__cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
